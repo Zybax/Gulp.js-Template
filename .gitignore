@@ -1,3 +1,5 @@
+.vscode
 data
 log
 node_modules
+src/css
