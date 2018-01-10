@@ -3,3 +3,5 @@ data
 log
 node_modules
 src/css
+src/bootstrap
+dest
