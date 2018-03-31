@@ -74,5 +74,6 @@ gulp.task('start', () => {
     gulp.watch(['src/scss/*.scss'], ['sass']);
     // gulp.watch(['src/images/*'], ['imageMin']);
     gulp.watch(['src/*.html']).on('change', browser.reload);
+    gulp.watch(['src/css/*.css']).on('change', browser.reload);
 
 });
